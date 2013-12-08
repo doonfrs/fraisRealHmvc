@@ -3,7 +3,7 @@ fraisRealHmvc
 
 Yii Framework Widget more independence
 
-###IDEA:
+###IDEA
 in YII framework you cannot use widgets as action provider independently, you need to add an action in controller with dispatch the request to this widget, simply you cannot access the widget directly, this means that you may use the widget as a shared view( with some functionality ) or if you put action in this widget you need to modify each controller to make a route between this controller and the widget action…
 
 ###Why? 
@@ -33,16 +33,11 @@ But still not helpful, I want to create 100 widget with different settings, and 
 
 
 ###Current YII Approach:
-
-
-
+![alt tag](http://firas-vision.com/wp-content/uploads/1.png)
 
 
 ###New Approach:
-
-
-
-
+![alt tag](http://firas-vision.com/wp-content/uploads/2.png)
 
  
 ###Where will you save the widgets cache?
